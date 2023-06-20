@@ -1,0 +1,45 @@
+*{  /* text-aligne = pour le deplacer les textes comme on le souhaite*/
+    text-align: right;
+}
+body{
+    background: rgb(153, 255, 0);
+}
+header{
+    /* fond du header */
+    background-color: blueviolet;
+    /* coleur du text  */
+    color: blanchedalmond;
+    /* height = hauteur du header */
+    height: 100px;
+}
+nav{
+    background: rgb(36, 36, 3);
+    height: 60px;
+}
+section{
+    background-color: red;
+    height: 550px;
+}
+
+article{
+    background-color: aqua;
+    height: 70px;
+}
+footer{
+    background-color: darkred;
+    height: 40px;
+}
+nav,footer{ 
+    color:beige;
+}
+.jaune{
+    background-color: yellow;
+}
+.text{
+    text-align: right;
+}
+#bleu{
+    color: blue;
+    font-size: 25px;
+    /* font-size = taille de la police */
+}
