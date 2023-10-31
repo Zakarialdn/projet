@@ -1,0 +1,229 @@
+body{
+    width: 1060px;
+    margin: 0 auto;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.boutique{
+    height: 120px;
+}
+
+.boutique img{
+position: relative;
+left: -50px;
+top: -80px;
+}
+
+header{
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.panier{
+    display: flex;
+    background-color: rgb(103, 220, 255);
+    padding: 1em;
+    width: 220px;
+    height: 35px;
+     margin-top: 5px;
+     font-size: 15px;
+     color: white;
+     position: relative;
+     left: 66px;
+}
+
+.panier div{
+    position: relative;
+    left: 10px;
+    top: 12px;
+}
+
+
+span{
+    color: rgb(224, 36, 168);
+}
+
+.besoin{
+color: rgb(103, 220, 255);
+}
+
+.besoin h2{
+    margin-top: 2px;
+}
+
+
+.besoin p{
+    position: relative;
+    top: 38px;
+    right: -50px;
+    color: rgb(103, 220, 255);
+    margin-top: -40px;
+}
+
+
+.monpanier{
+    position: relative;
+    right: -66px;
+}
+
+.mon{
+background-color: rgb(103, 220, 255);
+ text-align: center;
+ color: white;
+ 
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: rgb(103, 220, 255);
+    height: 50px;
+    color: white;
+    margin: 0;   
+    align-items: center;
+}
+
+nav{
+    background-color: rgb(103, 220, 255);
+
+    /* padding-top: 32px; */
+    
+}
+
+
+.info{
+    display: flex;    
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.secu{
+        width: 300px;
+    text-align: left;
+    border-right: black 1px solid;
+    height: 120px;
+
+}
+
+
+.echange img{
+width: 30px;
+height: 40px;
+}
+
+.camion img{
+    width: 30px;
+    height: 40px;
+}
+
+.camion{
+    display: flex;
+    justify-content: space-around;
+    width: 180px;
+}
+
+.qui{
+    width: 450px;
+    text-align: left;
+    border-right: solid black 1px;
+    height: 190px;
+}
+
+#homme img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.services{
+        width: 20%;
+        height: 50px;
+        
+}
+
+.plan{
+    display: flex;
+     
+     width: 100%;
+     height: 250px;
+     justify-content: space-between;
+
+}
+.echange{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+
+
+#chemise , #talon , #robe{
+    width: 30%;
+    height: 220px;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    
+}
+
+h4{
+text-align: center;
+background-color: gray;
+padding: 1em;
+margin-top: 0;
+ border-radius: 10px 10px 0 0;
+
+}
+
+.article{
+    display: flex;
+}
+
+.article img{
+    height: 80px;
+    padding: 10px;
+}
+
+h3{
+    color: rgb(103, 220, 255);
+}
+
+nav a:hover{
+    background-color: purple;
+}
+
+nav a{
+    color: white;
+    height: 150px;
+    padding: 0px 50px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: rgb(103, 220, 255);
+    height: 50px;
+    color: white;
+    margin: 0;   
+    align-items: center;
+}
+
+.voir{
+    position: relative;
+    top: 120px;
+    right: 10px;
+}
+
+
+
+
+

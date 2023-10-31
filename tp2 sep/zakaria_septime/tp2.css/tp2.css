@@ -1,0 +1,132 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 50;
+}
+
+
+
+/* -------- LE BILAN -------- */
+header{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    /* text-decoration-line: overline; */
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: "-";
+}
+/* -------------------------- */
+
+
+
+/* ---------- les differentes photos et sevices afficher sur le sites ------- */
+.service , .gout {
+   /* border: 1px black solid; */
+   display: flex;
+   align-items: center;
+    text-align: center;
+   justify-content: space-around;
+     
+}
+
+.dressage , .salle{
+     display: flex;
+   align-items: center;
+    text-align: center;
+   justify-content: space-around;
+
+
+}
+
+.assiette{
+   /* border: 1px black solid; */
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: space-around;
+}
+
+div{
+    float: inline-end;
+}
+
+h1{
+border-bottom: 1px solid black;
+border-top: 1px solid black;
+}
+
+
+
+
+h3{
+    border-bottom: 1px black solid;
+    width: 500px;
+    margin: 0 auto;
+    /* float: inline-end; */
+}
+
+
+section div{
+    width: 50%;
+}
+
+/* -------------------------------------------------------------- */
+
+
+
+
+/* ------------ LES NOTES -------------- */
+i{
+    width: 70%;
+    background: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.fa{
+    color: white;
+}
+i>div{
+    width: 50%;
+    display: flex;
+}
+/* ---------------------------------------- */
+
+
+
+
+/* ------- MAIN -------- */
+main{
+    width: 70%;
+    margin: 0 auto;
+}
+/*  ---------------------- */
+
+
+
+
+/* --------------- FOOTER --------------- */
+footer{
+    display: block;
+    text-align: center;
+}
+
+.city{
+    background-image: url(/img/plan.png);
+    background-repeat: no-repeat;
+    height: 125px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+/* ---------------------------------------- */
+
+

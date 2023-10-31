@@ -1,0 +1,34 @@
+body{
+    font-family: 'Shadows Into Light', cursive;
+    /* margin: 10px auto; */
+   
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    color: #fff;
+    margin: 0 auto; 
+   
+}
+
+main{
+    background-color: #29347B;
+    margin:40px auto;
+    width: 50%; 
+    height: 910px;
+}
+
+figcaption{
+    color: #fff;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+
