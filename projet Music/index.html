@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MON SITE MUSIC</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    
+    <div class="contenair">
+        <video id="video-background" autoplay loop muted>
+            <source src="Media/pexels_videos_2022395 (1080p).mp4" type="video/mp4">
+            <!-- Ajoutez d'autres sources pour la compatibilité des navigateurs -->
+        </video>
+            <div class="navbar">
+                <img src="Media/note.jpg" class="logo">
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Playlist</a></li>
+                    <li><a href="#">Profil</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">A Propos</a></li>
+                </ul>
+            </div>
+            <div class="content">
+               <div class="left-col">
+                   <h1>MA<br>PLAYLIST<br>MATINALE</h1>
+               </div>
+               <div class="right-col">
+                   <p>Lancer La Musique</p>
+                   <img src="Media/play.png" id="icon">
+               </div>
+            </div>
+
+        </div>
+
+        <audio id="mySong">
+           <source src="Media/Aggressive Fast Flow Trap Rap Beat Instrumental VICIOUS Hard Angry Tyga Type Hype Trap Beat.mp3" type="audio/mp3">
+
+        </audio>
+
+    <script>
+        var mySong = document.getElementById("mySong");
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function(){
+            if (mySong.paused) {
+                mySong.play();
+                icon.src = "Media/pause.png"
+            } else {
+                mySong.pause();
+                icon.src = "Media/play.png"
+            }
+        }
+    </script>
+</body>
+</html>

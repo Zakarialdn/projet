@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MON SITE MANGA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>ANIME <span>STORE</span></p>
+        </div>
+
+        <div class="responsive_menu"></div>
+
+        <ul class="menu">
+            <li><a href="#">ACCEUIL</a></li>
+            <li><a href="#">ANIMES</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </header>
+    <div class="text">
+        <h1>Regarder des animés</h1>
+        <p>les meilleurs animes sont ici !</p>
+        <div class="links">
+            <a href="">Regarder</a>
+            <a href="">S'abonnez</a>
+        </div>
+    </div>
+
+    <script>
+        let menu_resp = document.querySelector('.responsive_menu');
+        let menu = document.querySelector('.menu');
+        menu_resp.onclick =function(){
+            menu_resp.classList.toggle('active');
+             menu.classList.toggle('responsive');
+        }
+    </script>
+</body>
+</html>
