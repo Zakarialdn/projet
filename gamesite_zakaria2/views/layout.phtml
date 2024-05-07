@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/face.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Game Blog</title>
+</head>
+
+<!-- BODY -->
+
+<body>
+    <!-- HEADER COMMUN-->
+    <header>
+
+        <nav>
+
+            <h1 class="logo"><span class="red">Ze</span>GAMEBLOG</h1>
+
+            <ul>
+                <li><a href="home"><span>AC</span>CUEIL</a></li>
+                <li><a href="add_article"><span>AJ</span>OUTE UN ARTICLE</a></li>
+                <li><a href="article"><span>AR</span>TICLES</a></li>
+                <li><a href="login"><span>CO</span>NNECTE TOI </a></li>
+            </ul>
+        </nav>
+
+        <section class="hero">
+            <div class="container">
+                <h2><span>Dé</span>couvrez le monde des jeux vidéo</h2>
+                <p>Bienvenue sur notre blog dédié aux jeux vidéo. Explorez nos articles, découvrez les dernières
+                    nouveautés, et plongez dans l' univers passionnant des jeux vidéo.</p>
+                <a href="article" class="btn">Découvrir nos articles</a>
+            </div>
+        </section>
+
+
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <!-- AFFICHAGE DU TEMPLATE CORRESPONDANT À LA VIEW VISÉ -->
+        <?php include $this->template . '.phtml' ?>
+
+    </main>
+
+    <!-- FOOTER COMMUN-->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Blog de Jeux Vidéo. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

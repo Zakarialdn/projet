@@ -1,0 +1,16 @@
+<?php foreach ($articleModel as $articles) { ?>
+<div class="articles">
+    <h2>
+        <?= $articles['title']; ?>
+    </h2>
+
+    <h3>
+        <?= $articles['content']; ?>
+    </h3>
+
+    <p>
+        <?= $articles['created_at']; ?>
+    </p>
+
+</div>
+<?php } ?>

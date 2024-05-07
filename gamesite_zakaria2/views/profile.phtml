@@ -1,0 +1,27 @@
+<?php if (isset($_SESSION['firstname'])): ?>
+
+<h1>Bienvenue sur votre profil
+    <?= $_SESSION['firstname'] ?>
+</h1>
+
+<section>
+    <h2>Vos informations</h2>
+    <ul>
+
+        <li>Prénom:
+            <?= $_SESSION['firstname'] ?>
+        </li>
+        <li>Email:
+            <?= $_SESSION['email'] ?>
+        </li>
+    </ul>
+
+    <a href="index.php?url=updateProfile&id=<?php echo $_SESSION['user_id']; ?>">Modifier mon profil</a>
+    <div>
+        <p>N'oubliez pas de vous <a href="?url=logout">Déconnecter</a></p>
+    </div>
+    <a href="index.php?url=confirm">Supprimer le profil définitivement</a>
+</section>
+<?php else: ?>
+<?= header('Location: index.php?url=login') ?>
+<?php endif ?>
