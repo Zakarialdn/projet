@@ -1,0 +1,24 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    /* Styles généraux */
+
+    body {
+        font-family: 'Press Start 2P', sans-serif;
+        /* Utilisation de la hauteur à 100% pour occuper tout l'écran */
+    }
+</style>
+<h1>NOS ARTICLES</h1>
+<section class="articles">
+    <form action="add_article" method="post">
+        <label for="title">Titre de l'article:</label>
+        <input type="text" id="title" name="title" required><br><br>
+
+        <label for="content">Contenu de l'article:</label>
+        <textarea id="content" name="content" required></textarea><br><br>
+
+        <label for="image">Image de l'article:</label>
+        <input type="file" id="image" name="image"><br><br>
+
+        <input type="submit" value="Créer l'article">
+    </form>
+</section>

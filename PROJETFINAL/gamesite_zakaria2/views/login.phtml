@@ -1,0 +1,41 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    /* Styles généraux */
+
+    body {
+        font-family: 'Press Start 2P', sans-serif;
+        /* Utilisation de la hauteur à 100% pour occuper tout l'écran */
+    }
+</style>
+<section id="login" class="col s12">
+    <form class="col s12" action="index.php?url=login" method="POST">
+        <article class="form-login">
+            <h1 class="hello">Connectez-vous</h1>
+
+
+            <div class="input-field col s12">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" class="validate">
+            </div>
+
+            <div class="input-field col s12">
+                <label for="password">Mot de passe</label>
+                <input id="password" name="password" type="password" class="validate">
+            </div>
+
+            <div class="checkbox-container">
+                <input type="checkbox" required>
+                <div class="text-checkbox">I agree with the terms of service.</div>
+            </div>
+
+            <div>
+                <button class="btn-login" type="submit" name="submit" value="login-user">Se connecter</button>
+                <a href="">Mot de passe oublié?</a>
+            </div>
+            <div>
+
+                <a href="register">Nouveau membre ? Inscrivez-vous</a>
+            </div>
+        </article>
+    </form>
+</section>

@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* Styles généraux */
+
+body {
+    margin: 0;
+    font-family: 'Press Start 2P', sans-serif;
+    background-image: url('../img/2e9b4d014d399222c05dd6453389d9ca.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; /* Utilisation de la hauteur à 100% pour occuper tout l'écran */
+}
+
+
+
+header {
+    height: 500px;
+    font-size: 19px;
+    position: relative;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 160px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+    line-height: 160px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 0 10px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+}
+
+main div span {
+    color: black;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+h3 {
+    color: white;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.hero h2 {
+    -webkit-text-stroke-width: 1.5px;
+    /* Largeur du contour */
+    -webkit-text-stroke-color: red;
+    /* Couleur du contour */
+}
+
+.hero p {
+    -webkit-text-stroke-width: 0.5px;
+    /* Largeur du contour */
+    -webkit-text-stroke-color: rgb(255, 3, 3);
+    /* Couleur du contour */
+}
+
+
+
+.btn {
+    display: inline-block;
+    background-color: #3d3d3d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #8b8b8b;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    /* Ajustez la position verticale selon vos besoins */
+    left: 20px;
+    /* Ajustez la position horizontale selon vos besoins */
+    margin: 0;
+    font-size: 1.5em;
+    /* Taille de police du titre */
+    font-weight: bold;
+    color: rgb(134, 134, 134);
+    /* Couleur du texte */
+}
+
+/* Style général des articles */
+.articles {
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    /* Espacement en bas entre les articles */
+    padding: 20px;
+    /* Espacement intérieur des articles */
+    background-image: url("../img/68f1a0f17f3721aa5516b8b9ad6d9011.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Couleur de fond avec transparence */
+    border-radius: 5px;
+    /* Arrondi des coins des articles */
+    background-color: rgb(121, 121, 121);
+    opacity: 85%;
+}
+
+/* Style du titre de l'article */
+.articles h2 {
+    font-size: 1.5em;
+    /* Taille de police du titre */
+    margin-bottom: 10px;
+    /* Espacement en bas du titre */
+    color: #fff;
+}
+
+/* Style du contenu de l'article */
+.articles p {
+    font-size: 1.2em;
+    /* Taille de police du contenu */
+    line-height: 1.5;
+    /* Hauteur de ligne pour une meilleure lisibilité */
+    margin-bottom: 20px;
+    /* Espacement en bas du contenu */
+    color: #fff;
+}
+
+/* Style de l'image de l'article */
+.articles img {
+    max-width: 250px;
+    /* Taille maximale de l'image */
+    border-radius: 5px;
+    /* Arrondi des coins de l'image */
+    margin-bottom: 20px;
+    /* Espacement en bas de l'image */
+}
+
+span {
+    color: red;
+}
+
+.articles a {
+    color: red;
+}
+
+h3 {
+    color: #fff;
+    -webkit-text-stroke-width: 0.5px;
+    /* Largeur du contour */
+    -webkit-text-stroke-color: red;
+}
+
+.containe {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.containe h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.containe p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.containe a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.containe a:hover {
+    background-color: #0056b3;
+}
+
+.profil{
+    color: white;
+}
+
+
+

@@ -1,0 +1,19 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    /* Styles généraux */
+
+    body {
+        font-family: 'Press Start 2P', sans-serif;
+        /* Utilisation de la hauteur à 100% pour occuper tout l'écran */
+    }
+</style>
+<?php foreach ($articleModel as $article) { ?>
+    <div class="articles">
+        <h2><?= htmlspecialchars($article['title']); ?></h2>
+        <?php if ($article['image'] !== null) : ?>
+            <img src="<?= htmlspecialchars($article['image']); ?>" alt="Image de l'article">
+        <?php endif; ?>
+        <h3><?= htmlspecialchars($article['content']); ?></h3>
+        <p><?= htmlspecialchars($article['created_at']); ?></p>
+    </div>
+<?php } ?>
